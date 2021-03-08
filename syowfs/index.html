@@ -106,6 +106,7 @@
                 <section>
                     <h2>What are websites made of?</h2>
                     <p>Let's dig into one of these websites and find out...</p>
+                    <small class="fragment"><strong>WARNING:</strong> I am showing you this for educational purposes only!</small>
                 </section>
 
                 <section>
@@ -118,6 +119,27 @@
                     <h2>What is HTML?</h2>
                     <p>Webpages behind the scenes are written in a language called HTML. It is super duper
                         straightforward once you understand how it works.</p>
+                    <small class="fragment">HTML isn't a "programming" language. This makes is easier to learn but limits what it can do.</small>
+                </section>
+
+                <section>
+                    <h2>What can HTML do?</h2>
+                    <p>HTML determines the <strong>layout</strong> and <strong>content</strong> of a webpage. It gives information like</p>
+                    <ul>
+                        <li>There is a heading that says "Hello World"</li>
+                        <li>Then there is a paragraph with some text</li>
+                        <li>Then there is a navigation bar</li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>What CAN'T HTML do?</h2>
+                    <p>HTML on its own is pretty dumb. It doesn't do anything fancy like</p>
+                    <ul>
+                        <li>Colors and design</li>
+                        <li>Interaction</li>
+                        <li>Animations</li>
+                    </ul>
                 </section>
             </section>
 
@@ -143,6 +165,8 @@
                     <p>HTML pages are made up of <strong>elements</strong> which usually have text inside of them.
                         Different elements have different meanings. Some are paragraphs, some are headers, some are
                         lists, some are images, etc.</p>
+                    
+                        <p class="fragment">A webpage is made up of elements, usually a whole lot of them.</p>
                 </section>
 
                 <section>
@@ -164,6 +188,35 @@
                 <section>
                     <h2>HTML Tags</h2>
                     <p>When you first start to learn HTML, you need to learn what tags there are!</p>
+                </section>
+                
+                <section>
+                    <h2>Where do tags go?</h2>
+                    <p>HTML documents follow a basic format.</p>
+                    <pre><code data-trim>
+                        &lt;!-- This a comment. It is ignored by the webpage. It's just for us to leave messages in the code. --&gt;
+
+                        &lt;!-- This tells us what language we are using... HTML of course! --&gt;
+                        &lt;!DOCTYPE html&gt;
+
+                        &lt;!-- Everything MUST be inside the &lt;html&gt; tag. --&gt;
+                        &lt;html&gt;
+
+                            &lt;!-- The &lt;head&gt; has information about the website that doesn't show when you look at it. --&gt;
+                            &lt;head&gt;
+                                <!-- <title> is the title of the tab in your browser -->
+                                &lt;title&gt;My Website&lt;/title&gt;
+                            &lt;/head&gt;
+
+                            &lt;!-- The body is where the visible stuff goes! --&gt;
+                            &lt;body&gt;
+                                &lt;h1&gt;My Cool Website&lt;/h1&gt;
+                                &lt;p&gt;Well hello there and welcome to my cool website.&lt;/p&gt;
+                            &lt;/body&gt;
+
+                        &lt;/html&gt;
+                    </code></pre>
+                    <small class="fragment">ALWAYS put your tags for visual stuff inside &lt;body&gt;!</small>
                 </section>
 
                 <section>
@@ -196,6 +249,11 @@
                 </section>
 
                 <section>
+                    <h2>&lt;img&gt;image&lt;/img&gt;</h2>
+                    <p>The &lt;img&gt; tag represents an image! It does not have a closing tag.</p>
+                </section>
+
+                <section>
                     <h2>Tags Inside Tags Inside Tags...</h2>
                     <p>The whole point of HTML is that tags usually go inside of each other!</p>
 
@@ -215,32 +273,6 @@
                 <section>
                     <h3>Putting It All Together</h3>
                     <p>You can make a full webpage with just these tags!</p>
-                </section>
-
-                <section>
-                    <h3>Full Example</h3>
-                    <pre><code data-trim>
-                        &lt;!-- This a comment. It is ignored by the webpage. It's just for us to leave messages in the code. --&gt;
-
-                        &lt;!-- This tells us what language we are using... HTML of course! --&gt;
-                        &lt;!DOCTYPE html&gt;
-
-                        &lt;!-- Everything MUST be inside the &lt;html&gt; tag. --&gt;
-                        &lt;html&gt;
-
-                            &lt;!-- The &lt;head&gt; has information about the website that doesn't show when you look at it. --&gt;
-                            &lt;head&gt;
-                                &lt;title&gt;My Website&lt;/title&gt;
-                            &lt;/head&gt;
-
-                            &lt;!-- The body is where the visible stuff goes! --&gt;
-                            &lt;body&gt;
-                                &lt;h1&gt;My Cool Website&lt;/h1&gt;
-                                &lt;p&gt;Well hello there and welcome to my cool website.&lt;/p&gt;
-                            &lt;/body&gt;
-
-                        &lt;/html&gt;
-                    </code></pre>
                 </section>
             </section>
 
