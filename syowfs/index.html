@@ -4,13 +4,14 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Slides</title>
+    <title>Start Your Own Website From Scratch!</title>
     <meta name="description" content="Slides for my Start Your Own Website From Scratch! Outschool course.">
     <meta name="author" content="Frank Matranga">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="../dist/reset.css">
     <link rel="stylesheet" href="../dist/reveal.css">
     <link rel="stylesheet" href="../dist/theme/solarized.css" id="theme">
+    <link rel="stylesheet" href="../plugin/highlight/zenburn.css" id="highlight-theme">
 </head>
 
 <body>
@@ -41,31 +42,230 @@
                 </section>
                 <section data-auto-animate>
                     <h4>Who am I?</h4>
-                    <p>I'm a 21-year-old student at Rensselaer Polytechnic Institute in upstate New York. I'm from NYC myself.</p>
+                    <p>I'm a 21-year-old student at Rensselaer Polytechnic Institute in upstate New York. I'm from NYC
+                        myself.</p>
                 </section>
                 <section data-auto-animate>
                     <h4>Who am I?</h4>
-                    <p>I've been interested in technology for a looooong time. I started programming when I was around 10 and currently use it to help others!</p>
+                    <p>I've been interested in technology for a looooong time. I started programming when I was around
+                        10 and currently use it to help others!</p>
                 </section>
                 <section data-auto-animate>
                     <h4>Who am I?</h4>
-                    <p>I do a lot of open source work, and I help local non-profits. I also work for Blackstone, an investment firm in Manhattan.</p>
+                    <p>I do a lot of open source work, and I help local non-profits. I also work for Blackstone, an
+                        investment firm in Manhattan.</p>
                 </section>
                 <section data-auto-animate>
                     <h4>Who am I?</h4>
-                    <p>Today I'll be teaching my favorite topic: <strong>web development</strong>! I've been making websites even longer than I've been programming.</p>
+                    <p>Today I'll be teaching my favorite topic: <strong>web development</strong>! I've been making
+                        websites even longer than I've been programming.</p>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h1>What are websites?</h1>
+
+                    <aside class="notes">
+                        We don't have a whole lot of time today so we're going to be moving a little fast. My goal is to
+                        give you an overview of what we're trying to do, and an idea of how you can get started. If you
+                        like it and want to continue, I'll be making a longer full course for web development!
+                    </aside>
+                </section>
+
+                <section>
+                    <p>A <strong>website</strong> is simply a bunch of <strong>webpages</strong> linked to each other.
+                    </p>
+                </section>
+
+                <section>
+                    <h2>What are webpages?</h2>
+                    <p>A <strong>webpage</strong> is a single page you visit in your web browser. It can have
+                        information, links, text, videos, sound, moving parts, etc. Usually these are on the web.</p>
+                </section>
+
+                <section>
+                    <h2>What is the web?</h2>
+                    <p>The <strong>world wide web</strong> is the huge, huge, huge collection of webpages that are
+                        publicly available on the internet. Links usually connect them.</p>
+                </section>
+
+                <section>
+                    <h4>Let's look at some examples...</h4>
+                    <ul>
+                        <li class="fragment"><a href="https://google.com" target="_examples">Google</a></li>
+                        <li class="fragment"><a href="https://en.wikipedia.org/wiki/Potato"
+                                target="_examples">Wikipedia</a></li>
+                        <li class="fragment"><a href="https://www.nitrome.com/" target="_examples">Nitrome</a></li>
+                        <li class="fragment"><a
+                                href="https://outschool.com/classes/start-your-own-website-from-scratch-B1zYm0uq#uslasR8yae"
+                                target="_examples">Outschool</a></li>
+                    </ul>
+                </section>
+
+                <section>
+                    <h2>What are websites made of?</h2>
+                    <p>Let's dig into one of these websites and find out...</p>
+                </section>
+
+                <section>
+                    <h1>HTML</h1>
+                    <p><strong>H</strong>yper<strong>t</strong>ext <strong>M</strong>arkup <strong>L</strong>anguage</p>
+                    <small class="fragment">But you don't need to remember that long name!</small>
+                </section>
+
+                <section>
+                    <h2>What is HTML?</h2>
+                    <p>Webpages behind the scenes are written in a language called HTML. It is super duper
+                        straightforward once you understand how it works.</p>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h1>HTML Basics</h1>
+                </section>
+
+                <section>
+                    <h2>HTML Files</h2>
+                    HTML files and are just files on your computer that you type into that end with <code>.html</code>.
+                </section>
+
+                <section>
+                    <h2>Follow Along</h2>
+                    <p>You can watch me now and view the recording later, or you can follow along with me! Create a new
+                        <strong>HTML,CSS,JS Repl</strong> on <a href="repl.it" target="_blank">repl.it</a>.</p>
+                </section>
+
+                <section>
+                    <h2>HTML Elements</h2>
+                    <p>HTML pages are made up of <strong>elements</strong> which usually have text inside of them.
+                        Different elements have different meanings. Some are paragraphs, some are headers, some are
+                        lists, some are images, etc.</p>
+                </section>
+
+                <section>
+                    <h2>HTML Elements</h2>
+                    <p>Let's look at some basic elements.</p>
+
+                    <pre><code data-trim lang="html">
+                        <script type="text/template">
+                            <h1>Amogus</h1>
+                            <p>When the Imposter is sus</p>
+                            <p>My cat is very grumpy</p>
+                        </script>
+                    </code></pre>
+                    <img class="fragment"
+                        src="https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started/grumpy-cat-small.png"
+                        alt="">
+                </section>
+
+                <section>
+                    <h2>HTML Tags</h2>
+                    <p>When you first start to learn HTML, you need to learn what tags there are!</p>
+                </section>
+
+                <section>
+                    <h2>&lt;p&gt;paragraph&lt;/p&gt;</h2>
+                    <p>The &lt;p&gt; tag goes around text that should be its own paragraph.</p>
+                </section>
+
+                <section>
+                    <h2>&lt;strong&gt;bold&lt;/strong&gt;</h2>
+                    <p>The &lt;strong&gt; tag goes around text that should be bolded. You can also use the older
+                        &lt;b&gt; tag for this.</p>
+                </section>
+
+                <section>
+                    <h2>&lt;em&gt;emphasis&lt;/em&gt;</h2>
+                    <p>The &lt;em&gt; tag goes around text that should be italicized. You can also use the older
+                        &lt;i&gt; tag for this.</p>
+                </section>
+
+                <section>
+                    <h2>&lt;h1&gt;heading&lt;/h1&gt;</h2>
+                    <p>The &lt;h1&gt; tag goes around text that should be a big heading! There are 6 of these.
+                        &lt;h1&gt; is the largest and &lt;h6&gt; is the smallest.</p>
+                </section>
+
+                <section>
+                    <h2>&lt;a&gt;clickable link&lt;/a&gt;</h2>
+                    <p>The &lt;a&gt; tag goes around text that should be a clickable link! You have to say what to link to and what text to show.</p>
+                </section>
+
+                <section>
+                    <h2>Tags Inside Tags Inside Tags...</h2>
+                    <p>The whole point of HTML is that tags usually go inside of each other!</p>
+
+                    <pre><code data-trim>
+                        <script type="text/template">
+                            <h1>Hello World</h1>
+                            <p>
+                                Hello to the <em>world</em>! What a nice time to be <strong>alive</strong>.
+
+                                <a href="https://google.com">Go to Google</a>
+                            </p>
+                        </script>
+                    </code></pre>
+                    <small>Some tags cannot go inside others, but that's for another time...</small>
+                </section>
+
+                <section>
+                    <h3>Putting It All Together</h3>
+                    <p>You can make a full webpage with just these tags!</p>
+                </section>
+
+                <section>
+                    <h3>Full Example</h3>
+                    <pre><code data-trim>
+                        &lt;!-- This a comment. It is ignored by the webpage. It's just for us to leave messages in the code. --&gt;
+
+                        &lt;!-- This tells us what language we are using... HTML of course! --&gt;
+                        &lt;!DOCTYPE html&gt;
+
+                        &lt;!-- Everything MUST be inside the &lt;html&gt; tag. --&gt;
+                        &lt;html&gt;
+
+                            &lt;!-- The &lt;head&gt; has information about the website that doesn't show when you look at it. --&gt;
+                            &lt;head&gt;
+                                &lt;title&gt;My Website&lt;/title&gt;
+                            &lt;/head&gt;
+
+                            &lt;!-- The body is where the visible stuff goes! --&gt;
+                            &lt;body&gt;
+                                &lt;h1&gt;My Cool Website&lt;/h1&gt;
+                                &lt;p&gt;Well hello there and welcome to my cool website.&lt;/p&gt;
+                            &lt;/body&gt;
+
+                        &lt;/html&gt;
+                    </code></pre>
+                </section>
+            </section>
+
+            <section>
+                <section>
+                    <h1>Websites</h1>
+                    <p>Let's make another webpage!</p>
+                </section>
+
+                <section>
+                    <p>Simply create another <code>.html</code> file and put something in it.</p>
+                    <p class="fragment">Then you can use &lt;a&gt; to make links between the pages!</p>
                 </section>
             </section>
         </div>
     </div>
 
     <script src="../dist/reveal.js"></script>
+    <script src="../plugin/notes/notes.js"></script>
+    <script src="../plugin/highlight/highlight.js"></script>
     <script>
         // More info about initialization & config:
         // - https://revealjs.com/initialization/
         // - https://revealjs.com/config/
         Reveal.initialize({
-            hash: true
+            hash: true,
+            plugins: [RevealNotes, RevealHighlight]
         });
     </script>
 </body>
